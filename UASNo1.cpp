@@ -30,7 +30,7 @@ int main(){
             }
         }
     }
-    cout << "\nNilai terbesar adalah " << maks << "." << endl;
+    cout << "\na. \tNilai terbesar adalah " << maks << "." << endl;
 
     int brp = 0;
     for(j = 0; j < baris; j++){
@@ -40,7 +40,7 @@ int main(){
             }
         }
     }
-    cout << "Terdapat nilai terbesar " << maks << " sebanyak " << brp << " buah."
+    cout << "\nb. \tTerdapat nilai terbesar " << maks << " sebanyak " << brp << " buah."
        << endl;
 
        int cari = 50;
@@ -54,9 +54,13 @@ int main(){
        }
 
        if(ada != true){
-           cout << "Tidak terdapat angka dengan nilai " << cari << "." << endl;
+           cout << "\nc. \tTIDAK ADA" << endl; 
+           cout << " \t= Tidak terdapat angka dengan nilai " << cari << "." << endl;
        }
        else {
-           cout << "Terdapat angka dengan nilai " << cari << "." << endl;
+           cout << "\nc. \tADA" << endl;
+           cout << " \t= Terdapat angka dengan nilai " << cari << "." << endl;
        }
+       
+       return 0;
 }
